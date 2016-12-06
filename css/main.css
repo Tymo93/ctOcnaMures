@@ -1,0 +1,346 @@
+.header-wrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+table, td, tr {
+    border-collapse: collapse;
+    border: 0;
+}
+
+@media only screen and (max-width: 1150px){
+    .logo {
+        left: 5% !important;
+    }
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    background-color: #3B3B3B;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.titles {
+    font-size: 21px;
+}
+
+body a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+ul {
+    list-style-type: none;
+    color: #FFF;
+    margin: 0;
+    padding: 0 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+
+.navigation li, .header-btns li {
+    display: inline;
+}
+
+.header-btns {
+    padding-top: 120px;
+}
+
+.header-btns li a {
+    display: inline-block;
+    width: auto;
+    padding: 10px 80px;
+    margin-right: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    -webkit-transition: background-color 0.8s;
+    -moz-transition: background-color 0.8s;
+    transition: background-color 0.8s;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.header-btns li a:hover {
+    background-color: rgba(73, 0, 130, 0.3);
+}
+
+.navigation ul li a {
+    display: inline-block;
+    width: auto;
+    padding: 15px 20px;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+
+.navigation ul li a:hover {
+    background-color: rgba(77, 75, 89, 0.8)
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 900;
+}
+
+.logo {
+    width: 170px;
+    float: left;
+    position: absolute;
+    left: 20%;
+}
+
+.main-container {
+   /* background-image: url("../pictures/main_bckg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; */
+    text-align: center;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    background-color: rgba(255, 255, 255);
+    height: 300px;
+}
+
+.header {
+    max-width: 85vh;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.header h1 {
+    font-size: 70px;
+}
+
+.header h2 {
+    font-size: 40px;
+}
+
+.wrapper {
+    width: 100%;
+padding: 0;
+margin: 0;
+clear: both;
+display: block;
+border-left: 0;
+border-right: 0;
+position: static;
+}
+
+.social-media {
+    text-align: center;
+    position: absolute;
+    bottom: 5vh;
+    width: 100%;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 60px;
+padding-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    opacity: 0.7;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease-out;
+}
+
+.social-media a:hover {
+    opacity: 1;
+}
+
+.social-media a span {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: left;
+    display: inline;
+    margin: 0 5px;
+    text-indent: -9999em;
+    line-height: 40px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-media .facebook span {
+    background-image: url(../pictures/facebook.png);
+}
+
+.social-media .twitter span {
+    background-image: url(../pictures/twitter.png);
+}
+
+.social-media .youtube span {
+    background-image: url(../pictures/youtube.png);
+}
+
+.social-media .instagram span {
+    background-image: url(../pictures/instagram.png);
+}
+
+.section-row {
+    margin: 0 auto;
+padding: 53px 20px;
+max-width: 1200px;
+position: relative;
+padding-left: 10px;
+padding-right: 10px;
+text-align:center;
+}
+
+.titles {
+       margin: 0 auto;
+    }
+
+    .text {
+       margin: 0 auto;
+    }
+
+@media only screen and (min-width: 767px) {
+
+    body {
+        line-height: 24px;
+    }
+
+
+    /*
+	//---------------------------------------
+	// Framework (Mobile)
+	//---------------------------------------
+	*/
+
+    .section-row {
+        padding: 50px 40px;
+        width: 768px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    /*
+	//---------------------------------------
+	// ROW: Defaults (Tablet)
+	//---------------------------------------
+	*/
+
+    .titles {
+        width: 560px;
+        margin-bottom: 24px;
+    }
+
+    .title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .subtitle {
+        /*font-size: 36px;
+		line-height: 44px;
+		*/
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .text {
+        font-size: 18px;
+        /*line-height: 24px;*/
+        line-height: 29px;
+        margin-bottom: 34px;
+        width: 590px;
+    }
+
+@media only screen and (min-width: 979px) {
+
+
+    /*
+	//---------------------------------------
+	// Framework (Mobile)
+	//---------------------------------------
+	*/
+
+    .section-row {
+        width: 980px;
+    }
+
+    /*
+	//---------------------------------------
+	// ROW: Defaults (Default)
+	//---------------------------------------
+	*/
+
+    .titles {
+        width: 800px;
+    }
+
+    .text {
+        width: 590px;
+    }
+
+    @media only screen and (min-width:1199px) {
+
+    /*
+	//---------------------------------------
+	// Framework (Mobile)
+	//---------------------------------------
+	*/
+
+    .section-row {
+        width: 1200px;
+    }
+
+    /*
+	//---------------------------------------
+	// ROW: Defaults (Large)
+	//---------------------------------------
+	*/
+
+    .text {
+        width: 800px;
+    }
+}
+
+.header-wrapper {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 420px;
+    background-color: #3B3B3B;
+    z-index: 200;
+    display: block;
+    width: 100%;
+}
+
+.image-wrapper img {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        -webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+-ms-transition: all 0.2s ease;
+-o-transition: all 0.2s ease;
+transition: all 0.2s ease-out;
+cursor: pointer;
+    }
+
+    .image-wrapper img:hover {
+        opacity: 0.6;
+    }
